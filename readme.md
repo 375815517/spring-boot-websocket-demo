@@ -1,4 +1,7 @@
 ##### 开始之前
+- author zhuqiang
+- email 375815517@qq.com
+
 WebSocket是TCP之上的一个非常薄的轻量级层。它非常适合使用“子协议”来嵌入消息。在本文中，我们将深入研究如何将STOMP消息与Spring一起创建交互式web应用程序。项目的源码存放于github中。
 
 ###### 项目依赖
