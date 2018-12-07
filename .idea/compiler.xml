@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-boot-websocket-demo" />
+        <module name="startdemo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="spring-boot-websocket-demo" target="1.8" />
+      <module name="startdemo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
