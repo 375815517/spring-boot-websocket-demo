@@ -6,14 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="startdemo" />
-        <module name="websockethandshakeinterceptor" />
+        <module name="start-demo" />
+        <module name="websocket-handshake-interceptor" />
+        <module name="websocket-message-handler" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="spring-boot-websocket-demo" target="1.8" />
+      <module name="start-demo" target="1.8" />
       <module name="startdemo" target="1.8" />
+      <module name="websocket-handshake-interceptor" target="1.8" />
+      <module name="websocket-message-handler" target="1.8" />
       <module name="websockethandshakeinterceptor" target="1.8" />
+      <module name="websocketmessagehandler" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
