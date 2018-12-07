@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/spring-boot-websocket-demo.iml" filepath="$PROJECT_DIR$/spring-boot-websocket-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/start-demo/startdemo.iml" filepath="$PROJECT_DIR$/start-demo/startdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/websocket-handshake-interceptor/websockethandshakeinterceptor.iml" filepath="$PROJECT_DIR$/websocket-handshake-interceptor/websockethandshakeinterceptor.iml" />
     </modules>
   </component>
 </project>
