@@ -109,5 +109,6 @@ public class WebsocketInterceptor implements HandshakeInterceptor {
     @Override
     public void afterHandshake(ServerHttpRequest request, ServerHttpResponse response, WebSocketHandler
             wsHandler, Exception exception) {
+        LOG.info("连接确认");
     }
 }
