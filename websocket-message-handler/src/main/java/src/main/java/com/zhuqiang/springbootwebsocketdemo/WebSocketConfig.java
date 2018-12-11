@@ -1,6 +1,5 @@
 package src.main.java.com.zhuqiang.springbootwebsocketdemo;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.messaging.converter.MessageConverter;
@@ -65,6 +64,7 @@ public class WebSocketConfig extends WebSocketMessageBrokerConfigurationSupport 
     public void registerStompEndpoints(StompEndpointRegistry registry) {
 
         registry.addEndpoint("/ws/")
+                .setAllowedOrigins("*")
                 .withSockJS().setInterceptors(new WebsocketInterceptor());
     }
 
